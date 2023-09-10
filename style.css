@@ -9,7 +9,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   background-color: rgb(12, 10, 10);
-  height: 70px;
+  height: 80px;
   border-radius: 30px;
 }
 
@@ -26,15 +26,9 @@ ul a {
 }
 
 .imagen {
-  width: 85%;
-  height: 85%;
+  width: 100px;
+  height: 70px;
   position: relative;
   left: 10%;
-}
-
-#logo {
-  background-color: rgb(229, 212, 182);
-  width: 90px;
-  height: 60px;
-  border-radius: 100%;
+  border-radius: 10px;
 }
