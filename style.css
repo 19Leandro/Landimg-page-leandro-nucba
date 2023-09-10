@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(12, 10, 10);
+  height: 70px;
+  border-radius: 30px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+ul a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.imagen {
+  width: 85%;
+  height: 85%;
+  position: relative;
+  left: 10%;
+}
+
+#logo {
+  background-color: rgb(229, 212, 182);
+  width: 90px;
+  height: 60px;
+  border-radius: 100%;
+}
+.container {
+  background-color: rgb(209, 120, 18);
+  width: fit-content;
+  position: relative;
+  top: 50px;
+  left: 40%;
+  border-radius: 5px;
+}
