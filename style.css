@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +8,7 @@
 }
 
 body {
-  background: linear-gradient(45deg, rgb(232, 83, 83), blue);
+  background: linear-gradient(45deg, rgb(234, 56, 204), rgb(12, 64, 195));
 }
 
 nav {
@@ -16,6 +18,8 @@ nav {
   background-color: rgb(0, 0, 0);
   height: 60px;
   border-radius: 20px;
+  position: fixed;
+  width: 100%;
 }
 
 ul {
@@ -52,7 +56,7 @@ main {
   align-items: center;
   padding: 70px, 0;
   margin-top: 80px;
-  margin-bottom: 80px;
+  margin-bottom: 90px;
 }
 
 .herotext {
@@ -111,6 +115,184 @@ main {
   width: 40%;
 }
 
+/* >>>>>>>>>>>CARDS BENEFICIOS<<<<<<<<<<<< */
+
+.cards {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 800px;
+  margin-bottom: 90px;
+  padding: 10px;
+}
+.card-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+.card-title h2 {
+  color: orange;
+  font-size: 35px;
+  font-family: "Anton", sans-serif;
+  font-weight: 100;
+}
+.card-title p {
+  color: white;
+  width: 70%;
+  text-align: center;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  text-align: center;
+  gap: 5px;
+  padding: 10px;
+  border: 5px dotted rgb(27, 245, 158);
+  border-radius: 20px;
+}
+.card-1 img {
+  width: 40%;
+  height: 40%;
+}
+.card-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  text-align: center;
+  gap: 5px;
+  padding: 10px;
+  border: 5px dotted rgb(27, 245, 158);
+  border-radius: 20px;
+}
+.card-2 img {
+  width: 40%;
+  height: 40%;
+}
+.card-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  text-align: center;
+  gap: 5px;
+  padding: 10px;
+  border: 5px dotted rgb(27, 245, 158);
+  border-radius: 20px;
+}
+.card-3 img {
+  width: 40%;
+  height: 40%;
+}
+
+.cards h3 {
+  color: orange;
+  font-family: "Anton", sans-serif;
+  font-weight: 100;
+}
+.cards p {
+  color: white;
+}
+/* >>>>>>>>>>>CONTACTO<<<<<<<<< */
+
+.contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin-bottom: 80px;
+  padding: 40px;
+  gap: 80px;
+  border: 7px double rgb(27, 245, 158);
+  border-radius: 20px;
+}
+.title-contact {
+  color: orange;
+  font-family: "Anton", sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  flex-direction: column;
+}
+.datos-contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.datos-contacto h3 {
+  color: rgb(163, 7, 7);
+  font-family: Tahoma, sans-serif;
+  font-size: 15px;
+}
+.datos-contacto p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 10px;
+  color: white;
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  width: 160px;
+}
+
+.contact-text2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  width: 160px;
+}
+
+.principal-img {
+  width: 40%;
+  height: 40%;
+
+  align-self: flex-end;
+}
+.contact-text img {
+  width: 20px;
+  height: 20px;
+}
+.contact-text2 img {
+  width: 20px;
+  height: 20px;
+}
+
+.redes-icons img {
+  width: 30px;
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -118,11 +300,27 @@ footer {
 }
 .footer-info {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 20px;
-  height: 20 px;
-  width: 80%;
+
+  width: 100%;
   color: black;
   background: linear-gradient(45deg, rgb(31, 201, 161), white);
+}
+.footer-info p {
+  color: orange;
+  font-family: "Anton", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.footer-img {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+}
+.footer-img img {
+  width: 50px;
 }
