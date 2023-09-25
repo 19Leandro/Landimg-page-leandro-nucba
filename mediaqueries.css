@@ -55,4 +55,10 @@ ul a {
   .contact-text2 {
     width: 100px;
   }
+  .herotext h1 {
+    text-align: center;
+  }
+  .card-title h2 {
+    text-align: center;
+  }
 }
