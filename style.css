@@ -15,9 +15,8 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: black;
+  background: linear-gradient(To bottom, rgb(215, 22, 138), rgb(12, 64, 195));
   height: 50px;
-  border-radius: 20px;
   position: fixed;
   width: 100%;
 }
@@ -32,6 +31,15 @@ ul a {
   color: white;
   text-decoration: none;
   font-size: 20px;
+  text-transform: none;
+  transition: 0.25s ease;
+}
+ul:hover a {
+  color: red;
+}
+ul:hover a:hover {
+  color: white;
+  box-shadow: 0, 2px, 0, 0 blue;
 }
 
 .logo-nav {
@@ -297,6 +305,7 @@ footer {
   display: flex;
   justify-content: center;
   align-content: center;
+  width: 100%;
 }
 .footer-info {
   display: flex;
