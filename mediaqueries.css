@@ -47,7 +47,7 @@ ul a {
     font-size: 8px;
   }
   .datos-contacto {
-    gap: 30px;
+    gap: 40px;
   }
   .contact-text {
     width: 100px;
@@ -63,5 +63,10 @@ ul a {
   }
   .footer-img {
     width: 300px;
+  }
+  .card-1,
+  .card-2,
+  .card-3 {
+    width: 160px;
   }
 }
